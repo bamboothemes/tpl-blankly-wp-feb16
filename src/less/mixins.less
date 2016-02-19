@@ -1,0 +1,41 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ *------------------------------------------------------------------------------
+ * @copyright   Copyright (C) Joomlabamboo, October 07 2015
+ * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
+ * @Link:       http://www.joomlabamboo.com
+ * @packaged: 	October 07 2015
+ *------------------------------------------------------------------------------
+ */
+ 
+.row-color(@bg, @textcolor, @headingcolor, @linkcolor) {
+ 
+ 		background:@bg;
+ 		color:@textcolor;
+ 
+ 		
+ 		h1,h2,h3,h4,h5,h6,p,li,span {
+ 			color:@headingcolor
+ 		}
+ 		
+ 		a {
+ 			color:@linkcolor
+ 		}
+ 		
+ 		li {
+ 			border-bottom:1px solid lighten(@bg,10%);
+ 			
+ 			a {
+ 				color:@linkcolor
+ 			}
+ 		}
+ 		
+ 		.zen-spotlight {
+ 			border:0
+ 		}
+ 
+ }
+ 
+ 
+ 

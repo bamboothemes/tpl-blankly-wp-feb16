@@ -1,0 +1,65 @@
+{
+    "top": {
+        "positions": {
+            "top1": "3",
+            "top2": "3",
+            "top3": "3",
+            "top4": "3"
+        },
+        "classes": {
+            "classes": "rotateIn zen-animate"
+        }
+    },
+    "logo": {
+        "positions": {
+            "logo": "6",
+            "search": "6"
+        },
+        "classes": {
+            "classes": "undefined zen-animate"
+        }
+    },
+    "menu": {
+        "positions": {
+            "menu": "12"
+        },
+        "classes": {
+            "classes": "undefined zen-animate"
+        }
+    },
+    "banner": {
+        "positions": {
+            "banner": "12"
+        },
+        "classes": {
+            "classes": "fadeInUpBig zen-animate"
+        }
+    },
+    "main": {
+        "classes": {
+            "classes": "none zen-animate"
+        }
+    },
+    "bottom": {
+        "positions": {
+            "bottom1": "2",
+            "bottom2": "2",
+            "bottom3": "2",
+            "bottom4": "2",
+            "bottom5": "2",
+            "bottom6": "2"
+        },
+        "classes": {
+            "classes": "none zen-animate"
+        }
+    },
+    "footer": {
+        "positions": {
+            "footer": "9",
+            "copyright": "3"
+        },
+        "classes": {
+            "classes": "none zen-animate"
+        }
+    }
+}

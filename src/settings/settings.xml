@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<fields name="Overview" icon="icon-book-open">
+			<field type="info"/>
+			<field type="section" label="Troubleshooting" name="troubleshooting" />
+			<field type="warnings"/>
+		</fields>
+	<fields name="Theme" icon="icon-feather" conditions="devmode loadtemplatecss">
+	<field type="sectionnav" name="theme" />
+		<field type="section" class="first"  name="Theme-options" label="Theme Options" description="The settings on this panel determine the styling of the theme. After making changes here you must compile less to css before being able to see the changes take affect on the front end of your site."/>
+		<field type="advanced" name="advanced" />
+		<field type="style_overview" class="first"   description=""/>
+		<field type="presets" name="presets" class="" description="Presets" label="Color Presets" />
+		<field name="save_style" advanced="1" type="save_style" label="Save and compile theme" />
+		<field type="input" class="hidden" name="theme" />
+		<field type="notadvanced" name="tipfortheme" description="Click the show advanced options to edit settings available for this theme." />
+		<field type="section" name="template-width" advanced="1" label="Width" class="" />
+		<field type="input" name="twidth" advanced="1" label="Template Max width" compile="1"  />
+		<field type="section" label="Padding and Spacing" advanced="1" class=""/>
+		<field name="gutter" display="half" type="input" default="30px" compile="1" advanced="1" label="Vertical Rhythm" description="" />
+		<field name="gutter-pc" display="half" type="input" default="2%" compile="1" advanced="1" label="Horizontal Grid Spacing" description="" />
+		<field type="section" label="Colors" name="Colors" advanced="1" />
+		<field type="color" advanced="1" display="half" name="primary" label="Primary" description="Primary Color" compile="1" />
+		<field type="color" advanced="1" display="half" name="secondary" label="Secondary" description="Secondary Color" compile="1" />
+		<field type="color" advanced="1" display="half" name="body-bg" label="Body Background" compile="1" />
+		<field type="color" advanced="1" display="half" name="border-color" label="Border Color" compile="1" />
+		<field type="color" advanced="1" name="text-color" display="half" label="Text Color" class=""/>
+		<field type="color" advanced="1" display="half" name="heading-color" label="Heading Color" compile="1" />
+		<field type="section" advanced="1" label="Link Colors"/>
+		<field type="color" display="half" advanced="1" name="link-color" label="Link Color" compile="1" />
+		<field type="color" display="half" advanced="1" name="link-hover-color" label="Link Hover Color" compile="1" />
+		<field type="section" advanced="1" label="Button Colors"/>
+		<field type="color" advanced="1" display="half" name="btn-primary-color" label="Button Text Color" compile="1" />
+		<field type="color" advanced="1" display="half" name="btn-primary-color-hover" label="Button Text Color Hover" compile="1" />
+		<field type="color" advanced="1" display="half" name="btn-bg" label="Button Background" class="" />
+		<field type="color" advanced="1" display="half" name="btn-bg-hover" label="Button Background Hover" compile="1" />
+		<field type="color" advanced="1" display="half" name="btn-border" label="Button Border" compile="1" />
+		<field type="color" advanced="1" display="half" name="btn-border-hover" label="Button Border Hover" compile="1" />
+		<field type="section" advanced="1" label="Banner Style"/>
+		<field type="color" display="half" advanced="1" name="banner-bg" label="Banner Background" compile="1" />
+		<field type="color" display="half" advanced="1" name="banner-border-color" label="Banner Border Color" />
+		<field type="color" display="half" advanced="1" name="banner-text-color" label="Banner Text Color"/>
+		<field type="color" display="half" advanced="1" name="banner-link-color" label="Banner Link Color"/>
+		<field name="banner-padding" display="half" type="input" default="0" compile="1" advanced="1" label="Banner Padding" description="" />
+		<field type="section" advanced="1" name="navbar" label="Navbar" class="" />
+		<field type="color" display="half" advanced="1" name="navbar-default-bg" compile="1"  label="Navbar Background" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-color" compile="1"  label="Navbar Link Color" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-hover-color" compile="1"  label="Navbar Link Hover" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-active-color" compile="1"  label="Navbar Link Active Color" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-hover-active-bg" compile="1"  label="Navbar Link Active Hover Background" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-hover-active-color" compile="1"  label="Navbar Link Active Hover  Color" />
+		<field type="color" display="half" advanced="1" name="navbar-default-link-active-bg" compile="1"  label="Navbar Link Active Background" />
+		<field type="color" display="half" advanced="1" name="navbar-text-color" compile="1" default="@navbar-default-link-color" label="Navbar Text Color" />
+		<field type="section" advanced="1" label="Dropdown Style"/>
+		<field type="color" display="half" advanced="1" name="dropdown-bg" compile="1" label="Dropdown Background" />
+		<field type="color" display="half" advanced="1" name="dropdown-link-color" compile="1"  label="Dropdown Link Color" />
+		<field type="color" display="half" advanced="1" name="dropdown-link-active-color" compile="1"  label="Dropdown Active Link Color" />
+		<field type="color" display="half" advanced="1" name="dropdown-link-hover-color" compile="1"  label="Dropdown Link Hover" />
+		<field type="color" display="half" advanced="1" name="dropdown-header-color" compile="1"  label="Dropdown Header" default="@dropdown-link-color" />
+		<field type="section" advanced="1" name="logo" label="Logo Style"/>
+		<field type="color" display="half" advanced="1" name="logo-color" label="Logo Color" compile="1" />
+		<field type="color" display="half" advanced="1" name="logo-hover-color" label="Logo Hover Color" compile="1" />
+		<field type="separator" />
+	
+		<field type="section" name="offcanvas" label="Offcanvas Style" advanced="1" class=""/>
+		<field type="color" display="half" advanced="1" name="off-canvas-bg" label="Offcanvas Background" compile="1" />
+		<field type="color" display="half" advanced="1" name="off-canvas-header" label="Offcanvas Header Color" compile="1"  />
+		<field type="color" display="half" advanced="1" name="off-canvas-text-color" label="Offcanvas Text Color" compile="1" />
+		<field type="color" display="half" advanced="1" name="off-canvas-link-color" label="Offcanvas Link Color" compile="1" />
+		<field type="section" advanced="1"  name="hidden-panel" label="Hidden Panel" class=""/>
+		<field type="input" name="overlay-transparency" advanced="1" default="0.9" label="Overlay Transparency (%)"  compile="1" />
+		<field type="color" display="half" advanced="1" default="#ffffff" name="overlay-bg" label="Overlay Background" compile="1"  />
+		<field type="color" display="half" advanced="1" default="#ffffff" name="zen-panel-bg" label="Panel Background" compile="1" />
+		<field type="color" display="half" advanced="1" default="#333333" name="zen-panel-color" label="Panel Text Color" compile="1"  />
+		<field type="color" display="half" advanced="1" default="#999999" name="zen-panel-link-color" label="Panel Link Color" compile="1"  />
+		<field type="section" name="forms" label="Forms" advanced="1" class=""/>
+		<field name="input-min-height" display="half" type="input" default="42px" compile="1" advanced="1" label="Input Minimum Height" description="" />
+		<field type="color" display="half" name="input-bg" advanced="1" label="Input Background" compile="1" />
+		<field type="color" display="half" name="input-border" advanced="1" label="Input Border Color"  compile="1" />
+		<field type="color" display="half" name="input-color" advanced="1" label="Input Color"  compile="1" />
+		<field type="section" label="Pagination Styling" advanced="1" class=""/>
+		<field type="color" display="half" name="pagination-bg" advanced="1" label="Pagination Background" compile="1" />
+		<field type="color" display="half" name="pagination-border" advanced="1" label="Pagination Border Color"  compile="1" />
+		<field type="color" display="half" name="pagination-color" advanced="1" label="Pagination Color"  compile="1" />
+		<field type="section" name="rows" label="Row style" advanced="1" class="" description="The following settings adds the selected style to the selected row of modules. TYou can add more styles here by adding your own less files to the settings/themes/styles folder of your template. The name of the file is added as a class to the row in question eg .dark-row or .primary-row."/>
+		<field type="row_styles" compile="both" default="inherit" label="Top Row Style" name="top_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Banner Row Style" name="banner_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid1 Row Style" name="grid1_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid2 Row Style" name="grid2_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid3 Row Style" name="grid3_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid4 Row Style" name="grid4_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid5 Row Style" name="grid5_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Grid6 Row Style" name="grid6_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Bottom Row Style" name="bottom_row_style"/>
+		<field type="row_styles" compile="both" default="inherit" label="Footer Row Style" name="footer_row_style"/>
+		<field type="section" advanced="1" name="FontAwesome" label="Font Awesome" class="" description="This setting determines the number of font icons included and compiled in your template's css file. The minimum file will load the requried font icons for use in menus, panels etc that are called by the theme. If you wish to use more than this (via the Zen Shortcode plugin) you will need to include the full Font Awesome library. This setting can be disabled if you want to include an icon library via another method."/>
+		<field type="select" default="0" class="use_font_awesome" compile="both"  name="font_awesome_type" advanced="1">
+			<option value="all">Full Library</option>
+			<option value="min">Minimum required</option>
+			<option value="0">Do not include</option>
+		</field>
+		<field type="section" advanced="1" name="Bootstrap" label="Bootstrap" class="" description="This theme does not require the Bootstrap css framework to render it's core functionality and standard Joomla views. If you are using other components that use bootstrap markup you will need to enable this option. This theme implements either Bootstrap 2 or Bootstrap 3 in a selective manner. By disabling certain unneeded bootstrap files you will be able to reduce the size of your template.css and remove unneeded css rules from your site's assets."/>
+		<field type="checkbox" name="framework_enable" framework="bootstrap2" advanced="1" compile="both" label="Use 3rd Party css Framework?" description="When enabled this setting compiles the files selected below from the css framework compatible with this template." />
+		<field type="input" name="framework_files_group" class="framework hidden  exclude" advanced="1" label="Framework files to compile" description="When enabled this setting loads Joomla's core framework javascript files." compile="1"  />
+		<field type="frameworks" name="framework_files" label="Select Framework files to include" class="framework_enable "/>
+		
+	</fields>
+	<fields name="Fonts" icon="icon-fontsize">
+		<field type="sectionnav" name="fonts" />
+		<field type="section" class="first" name="Font-control" label="Font Control" description="The settings on this panel determine the font display for body, heading, navigation and logo tags on your site. After making changes to the settings below it is necessary to compile less to css by using the compile less button in the toolbar." />
+		<field type="advanced" name="advanced" />
+		<field type="section" name="Layout" label="Font Loader" advanced="1" />
+		<field type="checkbox" name="use_font_loader" advanced="1" label="Use font loader?" description="When enabled the javascript font loader is used to load fonts. If you are loading a single google font it's likely that having this option disabled will yield a better page load speed. However if you load more than one font the font loader allows the the page to load before the resources are loaded. This can lead to a FOUT - flash of unstyled content." />
+		<field type="section" name="typekit" label="Typekit" advanced="1" />
+		<field type="checkbox" name="use_typekit" advanced="1" label="Use typekit fonts?" description="When enabled this option embeds the require javascript to use Typekit fonts in your template. Enter the name of the typekit kit you wish to use in the input below." />
+		<field name="typekit_id" type="input" display="half" default="" class="use_typekit" label="Typekit Id" description="" />
+		<field type="section" name="Layout" label="Base fonts"/>
+		<field name="font-size-base" type="input" display="half" default="12px" compile="1" label="Base Font Size" description="" />
+		<field name="line-height-base" type="input" display="half" default="1.4em" compile="1" label="Base Line Height" description="" />
+		<field type="section" label="Body" name="bodyfont" class=""/>
+		<field name="bodyfont" type="select" display="half" default="-1" label="Body font family" description="Select google font to load a google font">
+			<option value="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, serif</option>
+			<option value="Adobe Caslon Pro, Georgia, Garamond, Times, serif">Adobe Caslon Pro, Georgia, Garamond serif</option>
+			<option value="Courier new, Courier, Andale Mono">Courier new, Courier, Andale Mono</option>
+			<option value="Garamond, ‘Times New Roman’, Times, serif">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="Georgia, Times, ‘Times New Roman’, serif">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="GillSans, Calibri, Trebuchet, arial sans-serif">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+			<option value="sans-serif">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="Lucida Grande, Geneva, Helvetica, sans-serif">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="Palatino, ‘Times New Roman’, serif">Palatino, ‘Times New Roman’, serif</option>
+			<option value="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva</option>
+			<option value="Trebuchet ms, Tahoma, Arial, sans-serif">Trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="-1">Google Font</option>
+		</field> 
+		<field name="body-font-weight" type="input" display="half" default="300" label="Body Font Weight" compile="1" description="Sets the base font weight for body text in the template. Enter an integer such as 300, 500, 700 or css rule such as normal, bold etc." />
+		<field name="bodyfont_custom" display="half"  type="input" default="Open+Sans:400,600,300:latin" size="30" label="Google Font - Body" description="Enter the google font you want to use on your site here. If the font name contains spaces just add the space as per the way it is described in the google font directory eg Source Sans pro" class="bodyfont" />
+		<field type="section" label="Heading" name="headingfont" />
+		<field name="headingfont" type="select" display="half" default="-1" label="Heading font family" description="Select google font to load a google font">
+			<option value="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, serif</option>
+			<option value="Adobe Caslon Pro, Georgia, Garamond, Times, serif">Adobe Caslon Pro, Georgia, Garamond serif</option>
+			<option value="Courier new, Courier, Andale Mono">Courier new, Courier, Andale Mono</option>
+			<option value="Garamond, ‘Times New Roman’, Times, serif">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="Georgia, Times, ‘Times New Roman’, serif">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="GillSans, Calibri, Trebuchet, arial sans-serif">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+			<option value="sans-serif">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="Lucida Grande, Geneva, Helvetica, sans-serif">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="Palatino, ‘Times New Roman’, serif">Palatino, ‘Times New Roman’, serif</option>
+			<option value="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva</option>
+			<option value="Trebuchet ms, Tahoma, Arial, sans-serif">Trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="-1">Google Font</option>
+		</field>
+		<field name="headings-font-weight" display="half" type="input" default="300" compile="1" advanced="1" label="Heading Font Weight" description="Sets the base font weight for headings the template. Enter an integer such as 300, 500, 700 or css rule such as normal, bold etc." />
+		<field name="headingfont_custom" display="half" type="input" default="Open+Sans:400,600,300:latin" size="30" label="Google Font - Heading" description="Enter the google font you want to use on your site here. If the font name contains spaces just add the space as per the way it is described in the google font directory eg Source Sans pro" class="headingfont" />
+		<field type="section" label="Nav" name="navfont" />
+		<field name="navfont" display="half" type="select" default="-1" label="Navigation font family" description="Select google font to load a google font">
+			<option value="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, serif</option>
+			<option value="Adobe Caslon Pro, Georgia, Garamond, Times, serif">Adobe Caslon Pro, Georgia, Garamond serif</option>
+			<option value="Courier new, Courier, Andale Mono">Courier new, Courier, Andale Mono</option>
+			<option value="Garamond, ‘Times New Roman’, Times, serif">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="Georgia, Times, ‘Times New Roman’, serif">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="GillSans, Calibri, Trebuchet, arial sans-serif">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+			<option value="sans-serif">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="Lucida Grande, Geneva, Helvetica, sans-serif">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="Palatino, ‘Times New Roman’, serif">Palatino, ‘Times New Roman’, serif</option>
+			<option value="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva</option>
+			<option value="Trebuchet ms, Tahoma, Arial, sans-serif">Trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="-1">Google Font</option>
+		</field>
+		<field name="navfontweight" display="half" type="input" default="300" compile="1" advanced="1" label="Navigation Font Weight" description="Sets the base font weight for navigation the template. Enter an integer such as 300, 500, 700 or css rule such as normal, bold etc." />
+		<field name="navfont_custom" display="half" type="input" default="Open+Sans:400,600,300:latin" size="30" label="Google Font - Navigation" description="Enter the google font you want to use on your site here. If the font name contains spaces just add the space as per the way it is described in the google font directory eg Source Sans pro" class="navfont" />
+		<field type="section" label="Logo" name="logofont" />
+		<field name="logofont" display="half" type="select" default="-1" label="Logo font family" description="Select google font to load a google font">
+			<option value="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, serif</option>
+			<option value="Adobe Caslon Pro, Georgia, Garamond, Times, serif">Adobe Caslon Pro, Georgia, Garamond serif</option>
+			<option value="Courier new, Courier, Andale Mono">Courier new, Courier, Andale Mono</option>
+			<option value="Garamond, ‘Times New Roman’, Times, serif">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="Georgia, Times, ‘Times New Roman’, serif">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="GillSans, Calibri, Trebuchet, arial sans-serif">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+			<option value="sans-serif">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="Lucida Grande, Geneva, Helvetica, sans-serif">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="Palatino, ‘Times New Roman’, serif">Palatino, ‘Times New Roman’, serif</option>
+			<option value="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva</option>
+			<option value="Trebuchet ms, Tahoma, Arial, sans-serif">Trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="-1">Google Font</option>
+		</field>
+		<field name="logo-font-weight" type="input" default="300" display="half" compile="1" advanced="1" label="Logo Font Weight" description="Sets the base font weight for logo the template. Enter an integer such as 300, 500, 700 or css rule such as normal, bold etc." />
+		<field name="logofont_custom" display="half" type="input" default="Open+Sans:400,600,300:latin" size="30" label="Google Font - Logo" description="Enter the google font you want to use on your site here. If the font name contains spaces just add the space as per the way it is described in the google font directory eg Source Sans pro" class="logofont" />
+		<field name="logo-font-size" display="half" type="input" default="300" compile="1" label="Logo Font Size" description="Determines the size of headings published to the logo module." />
+		<field name="logo-line-height" display="half" type="input" compile="1" advanced="1" default="1.4em" label="Logo Font Line Height" description="Sets the line height for heading tags in the logo position on your site." />
+		<field type="section" label="Custom font" name="customfont" />
+		<field name="customfontselector" type="input" default="" label="Selector to apply a custom font" filter="raw" description="Determines the selector to apply the custom font to. eg if you want to apply the font to all h2 elements that have the class article-title you would write h2.article-title here."/>
+		 <field name="customfont" display="half" type="select" default="-1" label="Logo font family" description="Select google font to load a google font">
+		 	<option value="Cambria, Georgia, Times, Times New Roman, serif">Cambria, Georgia, serif</option>
+		 	<option value="Adobe Caslon Pro, Georgia, Garamond, Times, serif">Adobe Caslon Pro, Georgia, Garamond serif</option>
+		 	<option value="Courier new, Courier, Andale Mono">Courier new, Courier, Andale Mono</option>
+		 	<option value="Garamond, ‘Times New Roman’, Times, serif">Garamond, ‘Times New Roman’, Times, serif</option>
+		 	<option value="Georgia, Times, ‘Times New Roman’, serif">Georgia, Times, ‘Times New Roman’, serif</option>
+		 	<option value="GillSans, Calibri, Trebuchet, arial sans-serif">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+		 	<option value="sans-serif">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+		 	<option value="Lucida Grande, Geneva, Helvetica, sans-serif">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+		 	<option value="Palatino, ‘Times New Roman’, serif">Palatino, ‘Times New Roman’, serif</option>
+		 	<option value="Tahoma, Verdana, Geneva">Tahoma, Verdana, Geneva</option>
+		 	<option value="Trebuchet ms, Tahoma, Arial, sans-serif">Trebuchet ms, Tahoma, Arial, sans-serif</option>
+		 	<option value="-1">Google Font</option>
+		 </field>
+		  	<field name="customfont_custom" type="input" default=""  size="30"
+		  	  label="Google Font - Custom" class="customfont"
+		  	  description="Enter the google font you want to use on your site here. If the font name contains spaces just add the space as per the way it is described in the google font directory eg Source Sans pro" />
+		  	<field name="customFontCSS" type="textarea" default="" label="CSS to be applied to custom font" description="If you need to apply specific css to this custom font then apply it here. eg color:#fff;font-size:3em."/>
+		
+	</fields>
+	<fields name="Layout" icon="icon-layout">
+		<field type="sectionnav" name="layout" />
+		<field type="section" class="first" name="Layout" label="Layout Control" description="The layout of this template can be controlled by dragging and resizing the blocks displayed below. Click on the eye icon to remove a module and likewise click on the modules listed below the row to reinstate specific modules." />
+		<field type="section" label="General Layout Settings"/>
+		<field type="checkbox" default="0" name="hidefrontpage" label="Hide maincontent on front page" description="When enabled the main content block is disabled if the user is on the front page." />
+		<field type="checkbox" default="0" advanced="1" name="force_equal" label="Force even widths" description="When enabled if a specific page has fewer modules published than specified in the layout tool below the modules will automatically stretch evenly across the page. Disable this option to force the module widths specified in the tool below in cases where not all modules are published to a specific row on a specific page." />
+		<field type="section" label="Widths" name="Widths" />
+		<field type="get_files" folder="tpls" target=".php" show_empty="0" advanced="1" label="Master Layout File" name="layout_file" description="This is an advanced option that allows users to specify a layout other than the the default layout file. Your new file needs to be added to the tpls/ folder."/>
+		<field type="layout" />
+	</fields>
+	<fields name="Responsive" icon="icon-layout">
+	<field type="sectionnav" name="responsive" />
+		<field type="section" label="Responsive" class="first" name="Responsive" description="The responsive panel determines how your template behaves across various screen sizes. The breakpoints specified below for the laptop and phone max width are used in the layotu tool to determine when a row should be displayed, stacked or hidden from view."/>
+		<field type="checkbox" default="0" name="enable_responsive" label="Enable responsive layouts" description="When enabled the template resizes to fit the screen size that the user is viewing their site on. If this option is disabled all responsive behaviour in the template is deactivated" />
+		<field type="checkbox" default="0" name="allow_pinch" label="Allow user to pinch and zoom" description="When enabled the user is able to pinch and zoom the page on touch enabled devices." class="enable_responsive" />
+		<field type="section" label="Collapsed Menu Behaviour" name="responsive-menu" class="enable_responsive" description="This setting determines what happens to the menu when the the browser is smaller than the nav collapse value specified in the breakpoints section below."/>
+		<field name="navcollapse_type" class="enable_responsive compress" type="select" default="-1">
+			<option value="default">No Change</option>
+			<option value="stacked">Stacked</option>
+			<option value="select">Select Menu</option>
+			<option value="toggle">Toggle</option>
+			<option value="offcanvas">Offcanvas</option>
+		</field>
+		<field type="section" label="Breakpoints" name="breakpoints" class="enable_responsive" />
+		
+		<field type="input" name="tablet-max-width"  label="Tablet Max width" compile="both" class="enable_responsive" />
+		<field type="input" name="phone-max-width" label="Phone Max width" compile="both" class="enable_responsive" />
+		<field type="input" name="gridcollapse" label="Grid Collapse" compile="both" class="enable_responsive"  description="This variable acts as a global setting which can be used to collapse all grid columns at a specific browser width. This value will override the stack settings in the layout tool below."/>
+		<field type="input" name="navcollapse" label="Nav Collapse" compile="both" class="enable_responsive" />
+		<field type="section" label="Container Widths" name="containerwidths" class="enable_responsive" description="The following settings determine the max-width for the main website container across 3 different screen sizes. Use % values here for best results."/>
+		<field type="input" name="container-width"  label="Container width" default="80%" compile="1" class="enable_responsive" />
+		<field type="input" name="tablet-container-width"  label="Tablet Container width" default="80%" compile="1" class="enable_responsive" />
+		<field type="input" name="phone-container-width"  label="Phone Container width" compile="1" default="75%" class="enable_responsive" />
+	</fields>
+	<fields name="Menus" icon="icon-menu">
+		<field type="sectionnav" name="menus" />
+		<field type="section" class="first" label="Menu Options" description="This panel controls the main navigation, sidebar, offcanvas and one page menu options. Collapse navigation options can be found on the Responsive menu tab."/>
+		<field type="section" label="Dropdown" name="Dropdown" description="The dropdown menu in this template uses the Zen Menu plugin to generate it's mega menu functionality. Adding icons, subtitles and multiple column menu items can be done (after installing the Zenmenu plugin) via the menu manager. Edit the menu you wish to apply mega menu fucntionality to and click on the zen menu tab in the menu settings. Icons and subtitles can be added to any standard Joomla menu - including sidebar, top and footer menus."/>
+		<field type="input" name="dropdown_min_width" label="Dropdown Minimum width" default="200px" compile="1" description="This parameter needs to be set in px."  />
+		<field type="input" name="menu-animation" label="Menu Animation Speed" default="0.4s" compile="1"  />
+		<field name="dropdown_animation" display="half" type="select" default="fade" label="Menu Animation" description="">
+			<option value="fading">Fading</option>
+			<option value="zoom">Zoom</option>
+			<option value="below">Below</option>
+			<option value="no-animation">None</option>
+		</field>
+		<field name="menu_align" display="half" type="select" default="left" label="Menu alignment" description="">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</field>
+		<field type="section" label="Accordion" name="accordion" description="The accordion menu makes it possible to display a complex menu with multiple sub level items in a streamlined manner. "/>
+		<field type="checkbox" default="0" name="accordion" label="Enable Accordion" description="When enabled javascript is loaded in the template that allows the triggering of an accordion menu in the sidebar of the template." />
+		<field name="accordionType" class="accordion" type="select" default="-1" label="Accordion Type" description="The default behaviour for the accordion menu is to behave like a true accordion where clicking on one menu item closes all other currently open menu items. Using the panel behaviour changes this so that clicking on a menu item only opens or closes the child menu items of the menu you have clicked on.">
+			<option value="accordion">Accordion</option>
+			<option value="panel">Panel</option>
+		</field>
+		<field type="checkbox" default="0" name="accordionOpenFirst" class="accordion" label="Always open first item" description="When this option is enabled the first item int he accordion always opens regardless of whether it is the active item or not." />		
+		<field type="checkbox" default="0" name="accordionShowActive" class="accordion" label="Always show active menu item" description="When this option is enabled the panel for the currently active menu item is open." />	
+		<field type="section" name="Offcanvas" label="Offcanvas" description="The offcanvas panel will display on a page if a module is published to the offcanvas module position or the navcollapse menu type is set to offcanvas." />
+		<field name="offcanvas_position" display="half" type="select" default="-1" label="Offcanvas Position" description="">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+		</field>
+		
+		<field name="offcanvas_width" display="half" type="select" default="normal" label="Offcanvas Width" description="">
+			<option value="thin">Thin</option>
+			<option value="normal">Normal</option>
+			<option value="wide">Wide</option>
+		</field>
+		<field name="offcanvas_min_width" display="half" type="select" default="normal" label="Minimum width visible" description="">
+			<option value="desktop">Desktop</option>
+			<option value="tablets">Tablet</option>
+			<option value="phones">Phone</option>
+			<option value="navcollapse">Nav collapse</option>
+			<option value="gridcollapse">Grid Collapse</option>
+		</field>
+		<field name="offcanvas_trigger" display="half" type="input" default="" label="Offcanvas trigger text" description="This option determines the text used to trigger the off canvas panel. It is possible to use shortcode syntax such as {zen-bars}{/zen-bars}." />
+		<field type="section" label="One Page" name="onepagelayout" description="&lt;strong&gt;One page mode transforms this theme into a one page scrolling template that uses various anchor points on the page to smooth scroll the browser window to the corresponding anchor point on the page.&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;The page is divided into corresponding rows that can be viewed on the layout tab in the template settings - eg grid1 to grid4. &lt;br /&gt;The menu items listed below will only be displayed if you have modules published to the appropriate module positions. For instance if you have a module published to grid1, grid,2 grid3 or grid4 then the menu item called Grid1 - Grid4 row menu text will appear on the page."  />
+		<field type="checkbox" default="0" name="onepage" label="Enable Onepage" />
+		<field name="homelink" class="onepage" type="input" default="" label="Home link text" description="Enter the text for the anchor that links to the home link. Leave this option empty if you would like to not link to this row." />
+		<field name="bannerlink" class="onepage" type="input" default="" label="Banner row link text" description="Enter the text for the anchor that links to the home link. Leave this option empty if you would like to not link to this row." />
+		<field name="grid1link" class="onepage" type="input" default="" label="Grid block 1 - (grid1 to grid4) row link text" description="Enter the text for the anchor that links to the grid1 row. Leave this option empty if you would like to not link to this row." />
+		<field name="grid2link" class="onepage" type="input" default="" label="Grid block 2 - (grid5 to grid8) row link text" description="Enter the text for the anchor that links to the grid2 row. Leave this option empty if you would like to not link to this row." />
+		<field name="grid3link" class="onepage" type="input" default="" label="Grid block 3 - (grid9 to grid12) row link text" description="Enter the text for the anchor that links to the grid3 row. Leave this option empty if you would like to not link to this row." />
+		<field name="mainlink" class="onepage" type="input" default="" label="Main content link text" description="Enter the text for the anchor that links to the Main row. Leave this option empty if you would like to not link to this row." />
+		<field name="grid4link" class="onepage" type="input" default="" label="Grid block 4 - (grid13 to grid16) row link text" description="Enter the text for the anchor that links to the grid4 row. Leave this option empty if you would like to not link to this row." />
+		<field name="grid5link" class="onepage" type="input" default="" label="Grid block 5 - (grid17 to grid20) row link text" description="Enter the text for the anchor that links to the grid5 row. Leave this option empty if you would like to not link to this row." />
+		<field name="grid6link" class="onepage" type="input" default="" label="Grid block 16 - (grid21 to grid24) row link text" description="Enter the text for the anchor that links to the grid6 row. Leave this option empty if you would like to not link to this row." />
+		<field name="bottomlink" class="onepage" type="input" default="" label="Bottom row link text" description="Enter the text for the anchor that links to the bottom row. Leave this option empty if you would like to not link to this row." />
+	</fields>
+	<fields name="Effects" icon="icon-water">
+		<field type="sectionnav" name="effects" />
+		<field type="section" class="first" label="Template Effects" description="This panel controls the various effects integrated into the theme including css3 animations, lazyload, back to top and sticky nav." />
+		<field type="section" label="CSS3 Effects" name="css3" description="The settings in this panel add css3 animations to the entire row of modules. When the page first loads and when the content becomes visible in the browser the content for that row will become visible using the animation specified in the settings below. Please note that while css3 animations can be fun you can overdo it, so use these settings wisely." />
+		<field type="checkbox" default="0" compile="both" name="enable_animations" label="Enable animations" />
+		<field type="animate" compile="both" default="none" label="Top Row Animation" name="top_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Header Row Animation" name="header_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Banner Row Animation" name="banner_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid1 Row Animation" name="grid1_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid2 Row Animation" name="grid2_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid3 Row Animation" name="grid3_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Main Content Animation" name="main_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid4 Row Animation" name="grid4_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid5 Row Animation" name="grid5_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Grid6 Row Animation" name="grid6_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Bottom Row Animation" name="bottom_animation" class="enable_animations"/>
+		<field type="animate" compile="both"  default="none" label="Footer Row Animation" name="footer_animation" class="enable_animations"/>
+		<field type="section" label="Lazyload" name="lazyload" description="This setting enables you to delay the loading of images on the page until the user scrolls down the page." />
+		<field type="checkbox" default="0" name="lazyload" label="Enable Lazyload for Images" />
+		<field type="input" class="lazyload" name="llselector" description="Apply lazy load effect for the following elements" label="Lazyload selector e.g. img, #midCol img" />
+		<field type="input" class="lazyload" name="llnotselector" description="Disable lazy load effect for the following elements" label="Disable Lazyload selector e.g. .nolazy " />
+		<field type="section" label="Back to top" name="totop" description="When the following setting is enabled a back to top item appears on your site after the user scrolls down the page. When clicked the browser is scrolled to the top of the page." />
+		<field type="checkbox" default="0" name="backtotop" label="Enable Back to top button" />
+		<field type="input" class="backtotop" name="backtotoptext" description="Text for back to top button" label="Back to top text" />
+		<field type="checkbox" default="1" name="backtotopicon" label="Show arrow" />
+		<field type="section" name="stickynav" label="Stickynav" description="Stickynav makes the navigation bar stick to the top of the browser when a user scrolls down past the navigation area.&lt;br /&gt; &lt;strong&gt;Please note: Sticky nav is automatically disabled for small screens.&lt;/strong&gt;" />
+		<field type="checkbox" default="0" name="stickynav" label="Enable Stickynav" />
+	</fields>
+	<fields name="Social" icon="icon-twitter">
+		<field type="sectionnav" name="social" />
+		<field type="section" class="first"  label="Social Sharing" description="This theme has a number of built in methods for connecting your website to popular social networking sites. Use the settings below to integrate social icons, share buttons and more."/>
+		<field name="social-top-offset" display="half" type="input" default="30px" compile="1" advanced="1" label="Social icons top offset" description="This setting determines the disatance from the top of the browser window that the social icons and hidden panel icon sit." />
+		<field type="section" label="Twitter" name="Twitter" />
+		<field name="twitter" type="checkbox" default="0" label="Enable Twitter tools" description="This setting enables the Twitter functionality in this theme."/>
+		<field name="twitter_share" class="twitter" type="checkbox" default="0" label="Enable Twitter share" description="If this setting is enabled the twitter icon is transformed into a custom tweet this button. When the user clicks the icon the a box will popup with the details of the page they are about to tweet about."/>
+		<field type="input" class="twitter" default="joomlabamboo" name="twitter_username" label="Twitter username" />
+		<field type="section" label="Facebook" name="Facebook"/>
+		<field name="facebook" type="checkbox" default="0" label="Enable Facebook tools" description="This setting enables the Facebook functionality in this theme."/>
+		<field type="input" class="facebook" default="http://www.facebook.com/joomlabamboo" description="Enter the url of the facebook page you want your icon to link to." name="facebook_url" label="Facebook Url" />
+		<field name="facebook_share" class="facebook" type="checkbox" default="0" label="Enable Facebook share" description="If this setting is enabled the facebook icon is transformed into a custom share button. When the user clicks the icon the article will be shared on their facebook page."/>
+		<field type="section" label="Google Plus" name="GooglePlus"/>
+		<field name="gplus" type="checkbox" default="0" label="Enable Google Plus tools" description="This setting enables the Google Plus functionality in this theme."/>
+		<field name="gplus_share" class="gplus" type="checkbox" default="0" label="Enable Google Plus share" description="If this setting is enabled the google plus icon is transformed into a share this button. When the user clicks the icon the a box will popup with the details of the page they are about to share."/>
+		<field type="input" class="gplus" default="http://www.google.com" description="Enter the url of the googleplus page you want your icon to link to." name="gplus_url" label="Google Plus Url" />
+		<field type="section" label="Pinterest" name="Pinterest"/>
+		<field name="pinterest" type="checkbox" default="0" label="Enable Pinterest tools" description="This setting enables the Pinterest functionality in this theme."/>
+		<field name="pinterest_share" class="pinterest" type="checkbox" default="0" label="Enable Pinterest share" description="If this setting is enabled the pinterest icon is transformed into a custom pinit button. When the user clicks the icon the a box will popup with the details of the page they are about to pin."/>
+		<field type="input" class="pinterest" default="http://www.pinterest.com" description="Enter the url of the pinterest page you want your icon to link to." name="pinterest_url" label="Pinterest Url" />
+		<field type="input" class="pinterest" name="pinterest_default_image" label="Path to Pinterest fallback image" />
+		<field type="section" label="Other Networks" name="Other-Networks" />
+		<field type="social_icons" default="" description="Extra social link" name="extra-social" label="Extra Social Url" />
+	</fields>
+	<fields name="Settings" icon="icon-cog">
+		<field type="sectionnav" name="settings" />
+		<field type="section" class="first"  label="Delete stored configurations" description="This panel makes it possible to remove previously stored configuration files for this theme. The theme uses a hierarchy of configuration files to make it possible to load different page layouts and themes on different pages in wordpress. eg if the config-single file exists then that is the configuration that will be used for all pages that use the wordpress single layout."/>
+		<field name="delete-items" type="remove" default="0" label="Remove Items" advanced="1" description="Select the configuration you wish to remove from thsi theme and then click on the delet button."/>
+		<field type="section" class="first"  label="Performance and Optimisation" description="This panel holds settings that can optimise the way that your template and website functions. Please note that some of the settings below require you css to be recompiled and your javascript to be recompressed."/>
+		<field type="advanced" />
+		<field type="section" name="Framework Settings" label="CSS Settings" description="The following settings determine the way that this template handles it's css assets. The template uses .less files to collect the data stored in the template settings in order to output a single css file. The settings below can be used to change or optimsie this behaviour based on your needs."/>
+		<field type="compile_button" name="compile_button" label="Compile Less" />
+		<field name="devmode" type="checkbox" default="0" label="Enable dev mode" advanced="1" description="&lt;strong&gt;Recommended for development if not using external compiler.&lt;/strong&gt;&lt;br /&gt; This setting loads .less files on the front end of your site. This means you can preview changes to less files without compiling them using an external program such as codekit, koala, winless etc. Disable this option if site is in production or you use an external compiling application."/>
+		<field name="watch_mode" class="devmode" type="checkbox" default="0" advanced="1" label="Less Watch Mode" description="When enabled development mode watches your template less files for real time changes and refreshes those changes in the browser without refreshing the page. This function can be somewhat cpu intensive and may cause your browser to slow down."/>
+		<field type="checkbox" compile="both" name="compresscss" label="Compress CSS Output"  description="&lt;strong&gt;Recommended for production websites.&lt;/strong&gt;&lt;br /&gt; When enabled the less compiler outputs compressed css into the css file. After changing this setting it is necessary to recompile / save your style under the style tab. Compile less to css after changing this setting" />
+		<field type="checkbox" default="0" name="gzip_css" advanced="1" description="When enabled the css file is loaded in a gzipped format. Gzipping assets can offer superior speed improvements for your pages." label="GZIP CSS output" />	
+		<field type="section"  advanced="1" label="Add less files to compiler" />
+		<field name="add_to_compiler" filter="raw" type="textarea" default="" compile="both" advanced="1" description="Enter a comma separated list of files here to add to the main template css file. To add a file here you need to add the relative path to the file on your site. eg media/mod_zentools/less/zentools.less. After adding your filename here click save and then the compile to less button in the toolbar." />
+		<field type="section" name="javascript" label="Javascript" description="This template loads a single javascript file which includes it's core javascript assets and any additional assets listed below. These assets are determined in the settings/assets.xml file. The file that is generated is output to templates/this_template/js/template.js or to templates/this_template/js/template-66.js depending on the settings below." />
+		<field type="checkbox" default="0" name="compressjs" class="compress" label="Load compressed Javascript file" description="When enabled a single javascript file is used on the front end of your site. Click the Compress scripts button below after changing this setting" />
+		<field type="checkbox" default="0" name="gzip_js" description="When enabled the javascript file is loaded in a gzipped format. Gzipping assets can offer superior speed improvements for your pages." advanced="1" label="GZIP Javascript output" />
+		<field type="section" advanced="1" label="Add Javascript files to compressor" />
+		<field name="add_to_compressor" class="compress" filter="raw" type="textarea" default="" advanced="1" description="Enter a comma separated list of files here to add to the main template js file. To add a file here you need to add the relative path to the file on your site. eg media/myfolder.myjsfile.js. After adding your filename here click save and then the compress scripts button in the toolbar." />
+		<field type="compress" name="compress" />
+		<field type="section" label="jQuery Settings" advanced="1" description="The jQuery library is required for this template and is loaded by default." />
+		<field type="checkbox" default="0" name="replace_jQuery" class="jQuery" advanced="1" label="Replace jQuery" description="This setting will replace the Wordpress jQuery with a copy from Google's CDN or from a file specified in the input below." />
+		<field type="input" name="jquery_location" class="replace_jQuery" advanced="1" label="URL of the jQuery file" default="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
+		<field type="section" label="CDN" name="cdn" advanced="1" description="The CDN option exchanges the path to the core template assets to the url listed below. This is a manual feature and after activating this option you are required to upload the template assets to the path specified. Please read the framework documentation for further information." />
+		<field type="checkbox" default="0" name="enable_cdn" advanced="1" description="When enabled the javascript file is loaded from the url specified. You need to use a 3rd party service to move the file to your cdn or do this manually. The javascript file can be located in the js/ folder of this template." label="Enable CDN" />
+		<field type="input" class="enable_cdn" name="cdn_url" label="CDN Url" advanced="1"/>
+		<field type="section" label="Custom Scripts" name="customscripts" advanced="1" description="Enter your custom scripts and analytics code in the text boxes below. Code added here is reproduced in the template directly and is not added to the template's compressor." />
+		<field name="after_head_scripts" filter="raw" type="textarea" default="" advanced="1" label="After opening head tag" description="Enter any script here that you want to appear after the opening head tags. Please ensure you include the appropriate script or style tags here." />
+		<field name="before_head_scripts" filter="raw" type="textarea" advanced="1" default="" label="Before closing head tag (Add Google Analytics here)" description="Enter any script here that you want to appear before the closing head tags. (Add Google Analytics here). Please ensure you include the appropriate script or style tags here." />
+		<field name="after_body_scripts" filter="raw" type="textarea" advanced="1" default="" label="After opening body tag" description="Enter any script here that you want to appear after opening body tags.  Please ensure you include the appropriate script or style tags here." />
+		<field name="before_body_scripts" filter="raw" type="textarea" advanced="1" default="" label="Before closing body tag" description="Enter any script here that you want to appear before the closing body tags. Please ensure you include the appropriate script or style tags here." />
+		<field type="section" name="mobile-detect" advanced="1"  label="Mobile Detect" description="When this option is enabled a server side function is used to determine whether the user is on a tablet, phone or other device. Server side applications can increase the loading of the template slightly however it will significantly improve the users experience on these devices. If this option is disabled then content set to be hidden on phones and tablets are simply hidden from view as opposed to not loaded at all. If a row is set to be hidden on a specific device then it will not show on that device regardless of the breakpoints set under the responsive tab. WARNING: This option is not compatible with Wordpress  cache plugins which saves copies of pages to be reused for different visitors on different devices."/>
+		<field type="checkbox" default="0" name="mobile_detect" advanced="1" label="Use mobile detect library" />
+		
+		<field type="section"  label="Template Administrator Settings" description="When enabled all descriptions are hidden in the template admin. This option is designed for those of you who already understand what each setting does and simply want to save some real estate in the template administrator." />
+		<field type="checkbox" default="0" name="hide_info" description="When enabled all descriptive headings are hidden from view to reduce space used in the admin." label="Hide template setting descriptions" />
+		<field type="input" name="active_tab" class="hidden" label="Active Tab on page load" />
+		<field type="input" name="compile_required" label="Compile_required" />
+		<field type="section"  label="Debug"  description="These settings help to debug the template by providing feedback on the front end of the site regarding the current settings of the theme as well as load a default template.css file."/>
+		<field type="checkbox" default="0" name="load_template_css" description="When enabled the template loads the default css file called template.css This is designed for developers and designers who would want to work directly from the template.less file and compile a template.css file directly." label="Load template.css file" />
+		<field type="checkbox" default="0" name="print_settings" description="When enabled the general template settings and theme settings are output at the bottom of the page." label="Print Template settings" />
+		<field type="input" name="advanced_setting" class="hidden" label="Advanced Setting" default="1"/>
+	</fields>
+</config>

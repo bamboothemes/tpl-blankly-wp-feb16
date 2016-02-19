@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<files>
+	<css>
+		<file>template.css</file>
+	</css>
+	<js> 
+		<file>../zengrid/libs/zengrid/js/smoothscroll.js</file>
+		<file>../zengrid/libs/zengrid/js/zen.accordion.js</file> 
+		<file>../zengrid/libs/zengrid/js/lazyload.js</file>
+		<file>../zengrid/libs/zengrid/js/meanmenu.js</file>
+		<file>../zengrid/libs/zengrid/js/jquery.resmenu.min.js</file>
+		<file>../zengrid/libs/zengrid/js/modernizr.touch.js</file>
+		<file>../zengrid/libs/zengrid/js/slidebars.js</file>
+		<file>../zengrid/libs/zengrid/js/framework.js</file>
+		<file>scripts.js</file>     	
+    </js>
+</files>

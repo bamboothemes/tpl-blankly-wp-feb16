@@ -1,0 +1,176 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       Zen Grid Framework 
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2006-2014 Joomlabamboo.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; 
+ * @Link:         http://www.joomlabamboo.com
+ *------------------------------------------------------------------------------
+ */
+ 
+/* Social Icons
+-----------------------------------------------------------------------------*/
+
+#socialicons {
+
+	padding:0;
+
+	span {
+		
+		padding:0px 4px 0 0;
+		.border-radius(4px);
+		.transition;
+	}
+	
+	li,a {
+		padding:0 !important
+	}
+	
+	li a:hover {
+	
+		text-decoration:none;
+		
+		span{
+			color:@link-hover-color !important;
+		}
+	}
+	
+	&.zenleft ul{
+		margin:20px 0 20px -10px !important
+	}
+	
+	&.zencenter ul {
+		
+		li {
+			border:0 !important;
+			margin:10px 0;
+			
+			a,span {
+			
+				&:hover {
+					color: @link-hover-color
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.sb-active {
+	.social-wrap.fixed {
+		display:none
+	}
+}
+
+.fixed {
+	@media screen and(max-width:@navcollapse) {
+		.social-wrap.fixed {
+			display:none
+		}
+	}
+}
+
+.social-wrap {
+	float:right;
+	padding:0 0 20px 20px;
+	position:fixed;
+	z-index:100;
+	right:0;
+	top:@social-top-offset;
+	width:44px;
+
+
+
+	
+	span {
+		padding:10px 6px;
+		display:block;
+		clear:both;
+		float:right;
+		width:44px;
+		height:auto;
+		line-height:30px;
+		font-size:1.3em;
+		margin-right:-17px;
+		transition: all 0.2s;
+		color:#fff;
+		
+		&.primary {
+			background:@primary
+		}
+		
+		&.secondary {
+			background:@secondary
+		}
+		
+		
+		
+		&:before {
+			margin-left:1px;
+			
+		}
+		&:hover {
+			margin-right:-10px;
+			color:#fff;
+			@media screen and (max-width:@nav-collapse) {
+				margin-right:0 !important;
+				color:@navbar-default-link-hover-color;
+			}
+			
+		}
+	}
+	
+	span.active {
+		
+	}
+	
+	.zen-icon-facebook,
+	.fa-facebook {
+		background:#3b5998;
+		color:#fff;
+	}
+	
+	.zen-icon-pinterest,
+	.fa-pinterest {
+		background:#cb2027;
+		color:#fff;
+	}
+	
+	.zen-icon-twitter,
+	.fa-twitter {
+		background:#00aced;
+		color:#fff;
+	}
+	
+	.zen-icon-google-plus,
+	.fa-google-plus {
+		background:#d34836;
+		color:#fff
+	}
+}
+
+
+.responsive-enabled {
+	.social-wrap {
+		
+		@media screen and (max-width:@nav-collapse) {
+			top:0;
+			left:0;
+			width:50%;
+			padding:0 0 0 10px;
+		
+		
+			span {
+		
+				float:left;
+				margin:0;
+				clear:none;
+				background:none !important	;
+				padding:10px;
+				width:30px		
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "top": {
+        "top1": "3",
+        "top2": "3",
+        "top3": "3",
+        "top4": "3"
+    },    "logo": {
+        "logo": "6",
+        "search": "6"
+    },
+   "menu": {
+       "menu": "12"
+   },
+   
+   "banner": {
+       "banner": "12"
+   },
+    "main": {
+        "sidebar1": "5",
+        "maincontent": "7"
+    },
+    "bottom": {
+        "bottom1": "2",
+        "bottom2": "2",
+        "bottom3": "2",
+        "bottom4": "2",
+        "bottom5": "2",
+        "bottom6": "2"
+    },
+    "footer": {
+        "footer": "9",
+        "copyright": "3"
+    }
+}

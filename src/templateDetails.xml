@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site" method="upgrade">
+	<name>Blankly</name>
+	<version>1.4.0</version>
+	<creationDate>20/08/2013</creationDate>
+	<author>Anthony Olsen</author>
+	<authorEmail>esign@joomlabamboo.com</authorEmail>
+	<copyright>Copyright (C) 2013 Joomlabamboo. All rights reserved.</copyright>
+	<description><![CDATA[<div id="hide-intro">
+	XERO is a blank starting point for the Zen Grid Framework version 4. It's a stand alone theme that is lightweight and fast straight out of the box.
+	</div>
+	]]></description>
+	<compat>1</compat>
+	<pages>
+		<page>default</page>
+		<page>home</page>
+		<page>frontpage</page>
+		<page>single</page>
+		<page>page</page>
+		<page>category</page>
+		<page>tag</page>
+		<page>author</page>
+		<page>archive</page>
+		<page>search</page>
+	</pages>
+	<positions>
+		<position>banner</position>
+		<position>menu</position>
+		<position>main</position>
+		<position>logo</position>
+		<position>breadcrumb</position>
+		<position>top1</position>
+		<position>top2</position>
+		<position>top3</position>
+		<position>top4</position>
+		<position>offcanvas</position>
+		<position>sidebar1</position>
+		<position>sidebar2</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>bottom5</position>
+		<position>bottom6</position>
+		<position>footer</position>
+		<position>copyright</position>
+		<position>debug</position>
+		<position>panel</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_xero.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_xero.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/templates/xero/zengrid/config">
+			<fieldset name="basic" label="Options">
+				<field name="scripts" type="scripts" label=""/>
+				<field name="config" type="config" label=""/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

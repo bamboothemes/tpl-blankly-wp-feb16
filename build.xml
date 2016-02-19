@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<project default="build" name="Mod - ZenTools">
+	<property file="build.properties" override="false" />
+	<property file="${dir.build}/common.properties" override="false" />
+	<xmlproperty file="${dir.local}/templateDetails.xml" keepRoot="false" prefix="jb." />
+
+	<target name="build">
+		<phing inheritAll="true" inheritRefs="true" phingfile="${dir.build}/build.xml" target="build" />
+	</target>
+
+</project>
