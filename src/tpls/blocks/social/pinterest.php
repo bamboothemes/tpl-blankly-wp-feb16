@@ -13,7 +13,7 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 	$link = $this->params->pinterest_url;
 ?>
 	
-<a id="social-pinterest" href="<?php echo $link;?>" target="_blank"><span class=" zen-animate fadeInRightBig animated-slower fa fa-pinterest zen-icon zen-icon-pinterest"></span></a>
+<a id="social-pinterest" href="<?php echo $link;?>" target="_blank"><span class="zen-animate fadeInRightBig animated fa fa-pinterest zen-icon zen-icon-pinterest"></span></a>
 
 <?php if($this->params->pinterest_share) { ?>
 

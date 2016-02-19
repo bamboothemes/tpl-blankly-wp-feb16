@@ -10,7 +10,8 @@
 function zen_breadcrumbs() {
  
  	echo '<ul class="breadcrumbs zen-nav zen-nav-divider">';
- 	 if (!is_home()) {
+ 	
+ 	 if (!is_front_page()) {
  	         echo '<li><a href="';
  	         echo home_url();
  	         echo '"><span>';

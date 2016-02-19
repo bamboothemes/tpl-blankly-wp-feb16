@@ -11,6 +11,8 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 
 
 ?>
+<div id="modal-place-holder" class="zen-modal"></div>
+
 <?php if ($this->countModules('panel')) : ?>
 <div data-id="zen-panel-1" class="zen-modal">
     <div class="zen-modal-header">
@@ -23,3 +25,4 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 </div>
 <div class="zen-modal-overlay"></div>
 <?php endif;?>
+

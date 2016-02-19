@@ -31,6 +31,9 @@ if(defined('ABSPATH')) {
 	define( 'TEMPLATE_PATH', get_template_directory().'/');
 	define( 'TEMPLATE_PATH_RELATIVE', 'wp-content/themes/'.TEMPLATE);
 	define('FRAMEWORK_PATH', get_template_directory().'/zengrid');
+	define( 'SITE_URL', get_template_directory_uri());
+	define( 'ADMIN_MEDIA_URI', get_template_directory_uri().'/zengrid/admin');
+	
 
 } else {
 	
@@ -244,7 +247,7 @@ function ajax_delete_theme() {
 }
 
 function ajax_delete_config() {
-	include_once(FRAMEWORK_PATH . '/helpers-wp/ajax-config.php');
+	include_once(FRAMEWORK_PATH . '/helpers-wp/ajax-delete-config.php');
 }
 
 function ajax_compress() {
@@ -267,6 +270,7 @@ add_action( 'wp_ajax_compile', 'ajax_compile', 10, 2 );
 add_action( 'wp_ajax_compress', 'ajax_compress', 10, 2 );
 add_action( 'wp_ajax_set_layout', 'ajax_set_layout', 10, 2 );
 add_action( 'wp_ajax_delete_theme', 'ajax_delete_theme', 10, 2 );
+add_action( 'wp_ajax_delete_config', 'ajax_delete_config', 10, 2 );
 
 // Add the menu item
 add_action( 'admin_menu', 'blankly_theme_options' );

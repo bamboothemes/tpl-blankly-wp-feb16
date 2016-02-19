@@ -155,11 +155,11 @@ jQuery(document).ready(function($){
 
 	win.scroll(function() {
 	    if (eloffset < win.scrollTop()) {
-	        fxel.addClass("fixed");
+	        fxel.addClass("zen-nav-fixed");
 	        $('html').addClass("fixed");
 	        $(fill).addClass('visible').removeClass('hidden');
 	    } else {
-	        fxel.removeClass("fixed");
+	        fxel.removeClass("zen-nav-fixed");
 	        $('html').removeClass("fixed");
 	        $(fill).removeClass('visible').addClass('hidden');
 	    }

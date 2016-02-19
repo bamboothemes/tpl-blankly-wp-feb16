@@ -7,7 +7,7 @@
 			    time() + $offset) . " GMT";
 			    header($ExpStr);?>/** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -17,7 +17,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -27,7 +27,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -37,7 +37,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1138,7 +1138,7 @@ img {
 html,
 body,
 #zen-wrap {
-  background: #ffffff;
+  background: #f9f9f9;
 }
 #zen-wrap {
   position: relative;
@@ -1174,7 +1174,7 @@ body,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1232,7 +1232,7 @@ body,
   font-size: 100% !important;
   font-weight: inherit !important;
   line-height: 1em !important;
-  color: #606c76;
+  color: #374140;
   text-shadow: none !important;
   text-transform: none !important;
 }
@@ -1287,7 +1287,7 @@ textarea {
   line-height: 2em;
   padding: 6px 12px;
   background: #ffffff;
-  color: #606c76;
+  color: #374140;
   border: 1px solid #eeeeee;
   max-width: 100%;
   margin-bottom: 15px;
@@ -1302,12 +1302,16 @@ input[type="submit"] {
   min-height: 0;
   height: auto;
   width: auto;
+  margin-right: 4px;
 }
 textarea {
   border-radius: 2px !important;
 }
 .input-group-addon {
-  display: inline;
+  text-align: center;
+  display: inline-block;
+  padding: 0 10px;
+  height: 42px;
 }
 input.button {
   width: auto;
@@ -1315,9 +1319,9 @@ input.button {
 }
 input,
 select {
-  border-radius: 2px !important;
-  border: 1px solid #eeeeee !important;
-  box-shadow: none !important;
+  border-radius: 2px;
+  border: 1px solid #eeeeee;
+  box-shadow: none;
   margin-bottom: 15px;
   height: 42px;
 }
@@ -1390,8 +1394,8 @@ form {
 .pagination li a,
 .pagination li span {
   color: #ffffff;
-  background: #374140;
-  border: 1px solid #202525;
+  background: #2a2c2b;
+  border: 1px solid #111212;
   border-radius: 2px;
   box-shadow: none;
   text-shadow: none;
@@ -1399,7 +1403,7 @@ form {
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  color: #606c76;
+  color: #374140;
   background: none;
   border: 1px solid #eeeeee;
   padding: 10px;
@@ -1416,15 +1420,15 @@ form {
 .pagination li a:hover,
 .pagination li span:hover {
   color: #ffffff;
-  background: #374140;
-  border: 1px solid #374140;
+  background: #2a2c2b;
+  border: 1px solid #2a2c2b;
   text-decoration: none;
 }
 .pagination li a:hover,
 .pagination li span:hover {
   color: #ffffff;
-  background: #374140;
-  border: 1px solid #374140;
+  background: #2a2c2b;
+  border: 1px solid #2a2c2b;
   text-decoration: none;
 }
 .pagination li a span,
@@ -1444,13 +1448,13 @@ form {
 .pagination li span {
   border-color: #c2c2c2;
   background: #cccccc;
-  color: #606c76;
+  color: #374140;
 }
 .pagination li.disabled a:hover,
 .pagination li span:hover {
   background: #cccccc;
   border-color: #c2c2c2;
-  color: #606c76;
+  color: #374140;
 }
 .pagination-wrap .counter {
   font-size: 85%;
@@ -1524,7 +1528,7 @@ dl {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1601,7 +1605,7 @@ dl {
   position: relative;
   z-index: 1;
   /* Site sits above Slidebars */
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   /* Default background colour, overwrite this with your own css. I suggest moving your html or body background styling here. Making this transparent will allow the Slidebars beneath to be visible. */
 }
 /* ---------------
@@ -1863,6 +1867,9 @@ html.sb-static .sb-slidebar,
 .zen-padding {
   padding: 30px;
 }
+.zen-padding-sml {
+  padding: 15px;
+}
 .zen-above {
   margin-bottom: 30px;
 }
@@ -2027,7 +2034,7 @@ html.sb-static .sb-slidebar,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2157,7 +2164,7 @@ var {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2254,6 +2261,42 @@ p.purple,
 span.purple,
 div.purple {
   color: #b10dc9;
+}
+p.primary-bg,
+span.primary-bg,
+div.primary-bg {
+  background: #dc3522;
+  color: #ffffff;
+}
+p.primary2-bg,
+span.primary2-bg,
+div.primary2-bg {
+  background: #b02a1b;
+  color: #ffffff;
+}
+p.primary3-bg,
+span.primary3-bg,
+div.primary3-bg {
+  background: #e45d4d;
+  color: #ffffff;
+}
+p.secondary-bg,
+span.secondary-bg,
+div.secondary-bg {
+  background: #2a2c2b;
+  color: #ffffff;
+}
+p.secondary2-bg,
+span.secondary2-bg,
+div.secondary2-bg {
+  background: #111212;
+  color: #ffffff;
+}
+p.secondary3-bg,
+span.secondary3-bg,
+div.secondary3-bg {
+  background: #434645;
+  color: #ffffff;
 }
 p.black-bg,
 span.black-bg,
@@ -2360,7 +2403,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2378,13 +2421,13 @@ div.purple-bg {
   background: #e45d4d;
 }
 .secondary1 {
-  background: #374140;
+  background: #2a2c2b;
 }
 .secondary2 {
-  background: #202525;
+  background: #111212;
 }
 .secondary3 {
-  background: #4e5d5b;
+  background: #434645;
 }
 .tertiary1 {
   background: #dc3522;
@@ -2445,7 +2488,7 @@ div.purple-bg {
 }
 .block.secondary,
 .block.secondary1 {
-  background: #374140;
+  background: #2a2c2b;
   color: #ffffff;
 }
 .block.secondary *,
@@ -2461,7 +2504,7 @@ div.purple-bg {
   color: #c8c8c8;
 }
 .block.secondary2 {
-  background: #202525;
+  background: #111212;
   color: #ffffff;
 }
 .block.secondary2 * {
@@ -2474,7 +2517,7 @@ div.purple-bg {
   color: #c8c8c8;
 }
 .block.secondary3 {
-  background: #4e5d5b;
+  background: #434645;
   color: #ffffff;
 }
 .block.secondary3 * {
@@ -2536,13 +2579,13 @@ div.purple-bg {
   -webkit-box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #f9f9f9;
 }
 .shadow2 {
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: #f9f9f9;
 }
 /* Anvil
 -----------------------------------------------------------------------------*/
@@ -2565,7 +2608,7 @@ div.purple-bg {
   left: 0;
   border-width: 0 0 80px 80px;
   border-style: solid;
-  border-color: transparent #ffffff;
+  border-color: transparent #f9f9f9;
 }
 /* Large Rounded numbers
 -----------------------------------------------------------------------------*/
@@ -2587,7 +2630,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2613,13 +2656,13 @@ div.border.primary3 {
 }
 div.border.secondary,
 div.border.secondary1 {
-  border-color: #374140;
+  border-color: #2a2c2b;
 }
 div.border.secondary2 {
-  border-color: #202525;
+  border-color: #111212;
 }
 div.border.secondary3 {
-  border-color: #4e5d5b;
+  border-color: #434645;
 }
 div.border.tertiary,
 div.border.tertiary1 {
@@ -3180,14 +3223,14 @@ label {
 }
 .zen-nav.zen-nav-pills li a,
 .zen-nav.zen-nav-pills li span {
-  color: #606c76;
+  color: #374140;
   background: #cccccc;
   padding: 10px;
 }
 .zen-nav.zen-nav-pills li a:hover,
 .zen-nav.zen-nav-pills li span:hover {
   color: #ffffff;
-  background: #374140;
+  background: #2a2c2b;
 }
 .zen-nav.zen-nav-pills li.active a,
 .zen-nav.zen-nav-pills li.active span {
@@ -3201,8 +3244,8 @@ label {
 }
 .zen-nav.zen-nav-pills.zen-nav-empty li a:hover,
 .zen-nav.zen-nav-pills.zen-nav-empty li span:hover {
-  border: 1px solid #374140;
-  color: #374140;
+  border: 1px solid #2a2c2b;
+  color: #2a2c2b;
 }
 .zen-nav.zen-nav-pills.zen-nav-empty li.active a,
 .zen-nav.zen-nav-pills.zen-nav-empty li.active span {
@@ -3212,19 +3255,19 @@ label {
 }
 .zen-nav.zen-nav-tabs li a,
 .zen-nav.zen-nav-tabs li span {
-  color: #606c76;
+  color: #374140;
   padding: 10px;
 }
 .zen-nav.zen-nav-tabs li a:hover,
 .zen-nav.zen-nav-tabs li span:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-nav.zen-nav-tabs li.active a,
 .zen-nav.zen-nav-tabs li.active span {
   color: #dc3522;
   border: 1px solid #eeeeee;
   border-width: 1px 1px 0 1px;
-  background: #ffffff;
+  background: #f9f9f9;
 }
 .zen-nav.zen-nav-tabs:after {
   content: "";
@@ -3235,14 +3278,14 @@ label {
 }
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li a,
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li span {
-  color: #606c76;
+  color: #374140;
   background: #cccccc;
   padding: 10px;
 }
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li a:hover,
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li span:hover {
   color: #ffffff;
-  background: #374140;
+  background: #2a2c2b;
 }
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li.active a,
 .zen-nav.zen-nav-tabs.zen-nav-tab-pills li.active span {
@@ -3258,11 +3301,11 @@ label {
 }
 .zen-nav.zen-nav-divider li a,
 .zen-nav.zen-nav-divider li span {
-  color: #606c76;
+  color: #374140;
 }
 .zen-nav.zen-nav-divider li a:hover,
 .zen-nav.zen-nav-divider li span:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-nav.zen-nav-divider li:after {
   content: "/";
@@ -3279,7 +3322,7 @@ label {
 }
 .zen-nav.zen-nav-divider li.active a:hover,
 .zen-nav.zen-nav-divider li.active span:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-nav.zen-nav-stacked li {
   display: block;
@@ -3288,10 +3331,10 @@ label {
 .zen-nav.zen-nav-stacked li a,
 .zen-nav.zen-nav-stacked li span {
   padding: 10px 0;
-  color: #606c76;
+  color: #374140;
 }
 .zen-nav.zen-nav-stacked li a:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-nav.zen-nav-stacked > li.active > a,
 .zen-nav.zen-nav-stacked > li.active > span {
@@ -3380,7 +3423,7 @@ label {
   cursor: pointer;
 }
 .zen-accordion li.parent span:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-accordion li.parent span:before {
   float: right;
@@ -3392,7 +3435,7 @@ label {
   margin-top: -4px;
 }
 .zen-accordion li.parent.open span {
-  color: #374140;
+  color: #2a2c2b;
 }
 .zen-accordion.zen-rounded li.parent span:before,
 .zen-accordion.zen-flat li.parent span:before,
@@ -3410,7 +3453,7 @@ label {
 .zen-accordion.zen-rounded li.parent.open span:before,
 .zen-accordion.zen-flat li.parent.open span:before,
 .zen-accordion.zen-round li.parent.open span:before {
-  background: #374140;
+  background: #2a2c2b;
 }
 .zen-accordion.zen-rounded li.parent span:before {
   border-radius: 2px;
@@ -3447,7 +3490,7 @@ label {
 .zen-slide-trigger.block.tertiary:hover,
 .zen-slide-trigger.block.tertiary2:hover,
 .zen-slide-trigger.block.tertiary3:hover {
-  background: #374140;
+  background: #2a2c2b;
 }
 .zen-slide-trigger.block.secondary:hover,
 .zen-slide-trigger.block.secondary2:hover,
@@ -3471,16 +3514,20 @@ label {
   display: none;
   z-index: 101;
   width: 600px;
-  height: 400px;
+  max-width: 90%;
+  max-height: 90%;
+  height: 800px;
   background: #ffffff;
   padding: 30px;
-  color: #000000;
+  color: #333333;
   margin: auto;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  overflow: auto;
+  border-radius: 4px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -3490,10 +3537,10 @@ label {
   cursor: pointer;
 }
 .zen-modal-content {
-  padding: 30px;
+  padding: 0;
 }
 .zen-modal-overlay {
-  background: rgba(51, 51, 51, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
   top: 0;
@@ -4353,7 +4400,7 @@ a.meanmenu-reveal {
   float: left;
   width: 100%;
   position: relative;
-  background: #dc3522;
+  background: transparent;
   padding: 4px 0 0;
   min-height: 42px;
   margin-bottom: 10px;
@@ -4362,7 +4409,7 @@ a.meanmenu-reveal {
 .mean-container li.parent .zen-icon-plus,
 .mean-container li.parent .zen-icon-minus {
   float: right;
-  color: #606c76;
+  color: #374140;
 }
 .mean-container a.meanmenu-reveal {
   width: 22px;
@@ -4420,7 +4467,7 @@ a.meanmenu-reveal {
   margin: 0;
   text-align: left;
   cursor: pointer;
-  color: #606c76;
+  color: #374140;
   border-top: 1px solid #383838;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   text-decoration: none;
@@ -4428,7 +4475,7 @@ a.meanmenu-reveal {
 }
 .mean-container .mean-nav ul li a:hover,
 .mean-container .mean-nav ul li span.zen-menu-heading:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .mean-container .mean-nav ul li li a,
 .mean-container .mean-nav ul li li span.zen-menu-heading {
@@ -4480,7 +4527,7 @@ a.meanmenu-reveal {
   border: none !important;
 }
 .mean-container .mean-nav ul li a.mean-expand:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .mean-container .mean-push {
   float: left;
@@ -4772,7 +4819,7 @@ a.meanmenu-reveal {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4782,7 +4829,7 @@ a.meanmenu-reveal {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4889,7 +4936,7 @@ a img.aligncenter {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4899,7 +4946,7 @@ a img.aligncenter {
  */
 * {
   font-weight: 300;
-  color: #606c76;
+  color: #374140;
 }
 a {
   text-decoration: none;
@@ -4910,7 +4957,7 @@ a {
   transition: all 0.2s ease-in;
 }
 a:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 img.border {
   padding: 4px;
@@ -4927,7 +4974,7 @@ h2 {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4937,7 +4984,7 @@ h2 {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4948,10 +4995,11 @@ h2 {
 /*------------------------------------*\
 	Buttons
 \*------------------------------------*/
-.btn {
+.btn,
+input.btn {
   color: #ffffff;
-  background: #374140;
-  border: 1px solid #202525;
+  background: #2a2c2b;
+  border: 1px solid #111212;
   padding: 10px;
   border-radius: 2px;
   box-shadow: none;
@@ -4962,13 +5010,15 @@ h2 {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-.btn:hover {
+.btn:hover,
+input.btn:hover {
   color: #ffffff;
-  background: #374140;
-  border: 1px solid #374140;
+  background: #2a2c2b;
+  border: 1px solid #2a2c2b;
   text-decoration: none;
 }
-.btn span {
+.btn span,
+input.btn span {
   color: #ffffff;
 }
 .btn-empty {
@@ -4985,7 +5035,8 @@ button {
 a.disabled {
   background: #cccccc;
 }
-.btn-primary {
+.btn-primary,
+input.btn-primary {
   color: #ffffff;
   background-color: #dc3522;
   border-color: #b02a1b;
@@ -4996,47 +5047,73 @@ a.disabled {
   transition: all 0.2s ease-in;
 }
 .btn-primary:hover,
+input.btn-primary:hover,
 .btn-primary:focus,
+input.btn-primary:focus,
 .btn-primary:active,
+input.btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+input.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.open .dropdown-toggleinput.btn-primary {
   background-color: #b92c1d;
   border-color: #7b1e13;
   color: #ffffff;
 }
 .btn-primary:active,
+input.btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+input.btn-primary.active,
+.open .dropdown-toggle.btn-primary,
+.open .dropdown-toggleinput.btn-primary {
   background-image: none;
 }
 .btn-primary.disabled,
+input.btn-primary.disabled,
 .btn-primary[disabled],
+input.btn-primary[disabled],
 fieldset[disabled] .btn-primary,
+fieldset[disabled] input.btn-primary,
 .btn-primary.disabled:hover,
+input.btn-primary.disabled:hover,
 .btn-primary[disabled]:hover,
+input.btn-primary[disabled]:hover,
 fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] input.btn-primary:hover,
 .btn-primary.disabled:focus,
+input.btn-primary.disabled:focus,
 .btn-primary[disabled]:focus,
+input.btn-primary[disabled]:focus,
 fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] input.btn-primary:focus,
 .btn-primary.disabled:active,
+input.btn-primary.disabled:active,
 .btn-primary[disabled]:active,
+input.btn-primary[disabled]:active,
 fieldset[disabled] .btn-primary:active,
+fieldset[disabled] input.btn-primary:active,
 .btn-primary.disabled.active,
+input.btn-primary.disabled.active,
 .btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+input.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] input.btn-primary.active {
   background-color: #dc3522;
   border-color: #b02a1b;
 }
-.btn-primary .badge {
+.btn-primary .badge,
+input.btn-primary .badge {
   color: #dc3522;
   background-color: #ffffff;
 }
-.btn-primary.btn-empty {
+.btn-primary.btn-empty,
+input.btn-primary.btn-empty {
   background: none;
   color: #b02a1b;
   border: 1px solid #b02a1b;
 }
-.btn-primary.btn-empty:hover {
+.btn-primary.btn-empty:hover,
+input.btn-primary.btn-empty:hover {
   background: #dc3522;
   color: #ffffff;
 }
@@ -5262,8 +5339,8 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-secondary {
   color: #ffffff;
-  background-color: #374140;
-  border-color: #374140;
+  background-color: #2a2c2b;
+  border-color: #2a2c2b;
   padding: 10px;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -5275,8 +5352,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-secondary:active,
 .btn-secondary.active,
 .open .dropdown-toggle.btn-secondary {
-  background-color: #242b2a;
-  border-color: #1b201f;
+  background-color: #161717;
+  border-color: #0c0d0c;
   color: #ffffff;
 }
 .btn-secondary:active,
@@ -5299,20 +5376,20 @@ fieldset[disabled] .btn-secondary:active,
 .btn-secondary.disabled.active,
 .btn-secondary[disabled].active,
 fieldset[disabled] .btn-secondary.active {
-  background-color: #374140;
-  border-color: #374140;
+  background-color: #2a2c2b;
+  border-color: #2a2c2b;
 }
 .btn-secondary .badge {
-  color: #374140;
+  color: #2a2c2b;
   background-color: #ffffff;
 }
 .btn-secondary.btn-empty {
   background: none;
-  color: #374140;
-  border: 1px solid #374140;
+  color: #2a2c2b;
+  border: 1px solid #2a2c2b;
 }
 .btn-secondary.btn-empty:hover {
-  background: #374140;
+  background: #2a2c2b;
   color: #ffffff;
 }
 .btn-success {
@@ -5537,7 +5614,7 @@ fieldset[disabled] .btn-danger.active {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5582,7 +5659,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5591,9 +5668,9 @@ h2.article-title {
  *------------------------------------------------------------------------------
  */
 #banner {
-  background: #0084bb;
-  border: 1px solid #0076a7;
-  padding: 30px;
+  background: #dc3522;
+  border: 1px solid #b02a1b;
+  padding: 15px;
   border-radius: 4px;
 }
 #banner p,
@@ -5606,7 +5683,7 @@ h2.article-title {
   color: #ffffff;
 }
 #banner a {
-  color: #dc3522;
+  color: #ffffff;
 }
 @media screen and (max-width: 787px) {
   #banner h2 {
@@ -5625,7 +5702,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5640,7 +5717,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5666,7 +5743,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5681,7 +5758,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5721,7 +5798,7 @@ h2.article-title {
 #logo h4 a:hover,
 #logo h5 a:hover,
 #logo h6 a:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 #logo h1 img,
 #logo h2 img,
@@ -5736,7 +5813,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5750,7 +5827,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5762,9 +5839,11 @@ h2.article-title {
   margin: 15px 0;
   float: left;
   width: 100%;
-  border: 1px solid #eeeeee;
+  border-style: solid;
+  border-color: #eeeeee;
   border-width: 1px 0;
   padding: 15px 0;
+  background: transparent;
 }
 #menu ul {
   margin-left: 0;
@@ -5779,7 +5858,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ * @package       Blankly v1.0 - ZGFv4 Universal
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5836,7 +5915,7 @@ h2.article-title {
   text-decoration: none;
 }
 #socialicons li a:hover span {
-  color: #374140 !important;
+  color: #2a2c2b !important;
 }
 #socialicons.zenleft ul {
   margin: 20px 0 20px -10px !important;
@@ -5847,7 +5926,7 @@ h2.article-title {
 }
 #socialicons.zencenter ul li a:hover,
 #socialicons.zencenter ul li span:hover {
-  color: #374140;
+  color: #2a2c2b;
 }
 .sb-active .social-wrap.fixed {
   display: none;
@@ -5861,7 +5940,7 @@ h2.article-title {
   float: right;
   padding: 0 0 20px 20px;
   position: fixed;
-  z-index: 100;
+  z-index: 99;
   right: 0;
   top: 170px;
   width: 44px;
@@ -5883,10 +5962,7 @@ h2.article-title {
   background: #dc3522;
 }
 .social-wrap span.secondary {
-  background: #374140;
-}
-.social-wrap span:before {
-  margin-left: 1px;
+  background: #2a2c2b;
 }
 .social-wrap span:hover {
   margin-right: -10px;

@@ -13,6 +13,7 @@ if ( ! function_exists( 'blankly_posted_on' ) ) :
  */
 function blankly_posted_on() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
+	
 	if ( get_the_time( 'U' ) !== get_the_modified_time( 'U' ) ) {
 		$time_string = '<time class="entry-date published" datetime="%1$s">%2$s</time><time class="updated" datetime="%3$s">%4$s</time>';
 	}
@@ -60,7 +61,7 @@ function blankly_entry_footer() {
 	}
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
-		echo '<span class="comments-link">';
+		echo '<span class="comments-link"><span class="fa fa-comment zen-icon zen-icon-comment"></span>';
 		comments_popup_link( esc_html__( 'Leave a comment', 'blankly' ), esc_html__( '1 Comment', 'blankly' ), esc_html__( '% Comments', 'blankly' ) );
 		echo '</span>';
 	}
@@ -71,7 +72,7 @@ function blankly_entry_footer() {
 			esc_html__( 'Edit %s', 'blankly' ),
 			the_title( '<span class="screen-reader-text">"', '"</span>', false )
 		),
-		'<span class="edit-link">',
+		'<span class="edit-link"><span class="fa fa-pencil zen-icon zen-icon-pencil"></span>',
 		'</span>'
 	);
 }

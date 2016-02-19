@@ -122,7 +122,7 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 <!-- MAIN CONTENT -->
 <section id="mainWrap" class="clearfix <?php echo $layout_type;?> <?php echo $this->rowClass('main');?>">
 	<a id="main-link" name="main-link"></a>
-	<?php if ($this->countModules('breadcrumb')) : ?>
+	<?php if ($this->countModules('breadcrumbs')) : ?>
 	<section id="breadcrumbwrap" class="clearfix">
 		<div class="zen-container">
 			<div class="zen-row">

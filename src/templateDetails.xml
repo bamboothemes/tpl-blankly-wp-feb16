@@ -5,7 +5,7 @@
 	<version>1.4.0</version>
 	<creationDate>20/08/2013</creationDate>
 	<author>Anthony Olsen</author>
-	<authorEmail>esign@joomlabamboo.com</authorEmail>
+	<authorEmail>design@joomlabamboo.com</authorEmail>
 	<copyright>Copyright (C) 2013 Joomlabamboo. All rights reserved.</copyright>
 	<description><![CDATA[<div id="hide-intro">
 	XERO is a blank starting point for the Zen Grid Framework version 4. It's a stand alone theme that is lightweight and fast straight out of the box.
@@ -29,7 +29,7 @@
 		<position>menu</position>
 		<position>main</position>
 		<position>logo</position>
-		<position>breadcrumb</position>
+		<position>breadcrumbs</position>
 		<position>top1</position>
 		<position>top2</position>
 		<position>top3</position>

@@ -51,6 +51,9 @@
 		<field type="color" display="half" advanced="1" name="navbar-default-link-hover-active-color" compile="1"  label="Navbar Link Active Hover  Color" />
 		<field type="color" display="half" advanced="1" name="navbar-default-link-active-bg" compile="1"  label="Navbar Link Active Background" />
 		<field type="color" display="half" advanced="1" name="navbar-text-color" compile="1" default="@navbar-default-link-color" label="Navbar Text Color" />
+		<field name="navbar-border-width" display="half" type="input" default="1px" compile="1" advanced="1" label="Navbar border width" description="" />
+		<field name="navbar-border-color" display="half" type="color" default="@border-color" compile="1" advanced="1" label="Navbar border color" description="" />
+		<field name="navbar-padding" display="half" type="input" default="@gutter-sml 0" compile="1" advanced="1" label="Navbar padding" description="" />
 		<field type="section" advanced="1" label="Dropdown Style"/>
 		<field type="color" display="half" advanced="1" name="dropdown-bg" compile="1" label="Dropdown Background" />
 		<field type="color" display="half" advanced="1" name="dropdown-link-color" compile="1"  label="Dropdown Link Color" />
@@ -68,11 +71,15 @@
 		<field type="color" display="half" advanced="1" name="off-canvas-text-color" label="Offcanvas Text Color" compile="1" />
 		<field type="color" display="half" advanced="1" name="off-canvas-link-color" label="Offcanvas Link Color" compile="1" />
 		<field type="section" advanced="1"  name="hidden-panel" label="Hidden Panel" class=""/>
-		<field type="input" name="overlay-transparency" advanced="1" default="0.9" label="Overlay Transparency (%)"  compile="1" />
-		<field type="color" display="half" advanced="1" default="#ffffff" name="overlay-bg" label="Overlay Background" compile="1"  />
-		<field type="color" display="half" advanced="1" default="#ffffff" name="zen-panel-bg" label="Panel Background" compile="1" />
-		<field type="color" display="half" advanced="1" default="#333333" name="zen-panel-color" label="Panel Text Color" compile="1"  />
-		<field type="color" display="half" advanced="1" default="#999999" name="zen-panel-link-color" label="Panel Link Color" compile="1"  />
+		<field type="input" display="half" name="overlay-transparency" advanced="1" default="0.9" label="Overlay Transparency (%)"  compile="1" />
+		<field type="input" display="half" name="modal-border-radius" advanced="1" default="0" label="Modal border radius"  compile="1" />
+		<field type="input" display="half" name="modal-max-height" advanced="1" default="800px" label="Modal max height"  compile="1" />
+		<field type="input" display="half" name="modal-max-width" advanced="1" default="600px" label="Modal max width"  compile="1" />
+		<field type="input" name="modal-padding" advanced="1" default="@base-padding" label="Modal padding"  compile="1" />
+		<field type="color" display="half" advanced="1" default="#ffffff" name="modal-overlay-bg" label="Overlay Background" compile="1"  />
+		<field type="color" display="half" advanced="1" default="#ffffff" name="modal-bg" label="Panel Background" compile="1" />
+		<field type="color" display="half" advanced="1" default="#333333" name="modal-color" label="Panel Text Color" compile="1"  />
+		<field type="color" display="half" advanced="1" default="#999999" name="modal-link-color" label="Panel Link Color" compile="1"  />
 		<field type="section" name="forms" label="Forms" advanced="1" class=""/>
 		<field name="input-min-height" display="half" type="input" default="42px" compile="1" advanced="1" label="Input Minimum Height" description="" />
 		<field type="color" display="half" name="input-bg" advanced="1" label="Input Background" compile="1" />
