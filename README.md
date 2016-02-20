@@ -1,6 +1,8 @@
 # tpl-blankly-wp-feb16
 The repo for the free starter theme called Blankly based on Zen Grid Framework v4. You can find the zgf4 universal repo here: https://github.com/locii/zengridframework4-universal
 
+### Please not ethat this will install in Wordpress only. The framework is J and WP compatible but there are some key differences between the template files.
+
 -----
 
 Hi Folks,
