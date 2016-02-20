@@ -15,9 +15,15 @@
    "banner": {
        "banner": "12"
    },
+   "above": {
+       "above": "12"
+   },
     "main": {
         "sidebar1": "5",
         "maincontent": "7"
+    },
+    "below": {
+        "below": "12"
     },
     "bottom": {
         "bottom1": "2",

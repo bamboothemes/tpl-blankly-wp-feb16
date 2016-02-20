@@ -7,7 +7,7 @@
 			    time() + $offset) . " GMT";
 			    header($ExpStr);?>/** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -17,7 +17,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -27,7 +27,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -37,7 +37,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1174,7 +1174,7 @@ body,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1528,7 +1528,7 @@ dl {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2034,7 +2034,7 @@ html.sb-static .sb-slidebar,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2164,7 +2164,7 @@ var {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2403,7 +2403,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2630,7 +2630,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4819,7 +4819,7 @@ a.meanmenu-reveal {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4829,7 +4829,7 @@ a.meanmenu-reveal {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4936,7 +4936,7 @@ a img.aligncenter {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4974,7 +4974,7 @@ h2 {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4984,7 +4984,7 @@ h2 {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5614,7 +5614,7 @@ fieldset[disabled] .btn-danger.active {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5659,7 +5659,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5702,7 +5702,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5717,7 +5717,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5743,7 +5743,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5758,7 +5758,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5813,7 +5813,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5827,7 +5827,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5858,7 +5858,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 

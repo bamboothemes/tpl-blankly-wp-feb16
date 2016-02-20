@@ -215,18 +215,28 @@ require get_template_directory() . '/inc/breadcrumbs.php';
 
 
 /**
- * Theme Admin Js
+ * Woocommerce
  *
 */
 
-function load_admin_js(){
-    // Unfortunately we can't just enqueue our scripts here - it's too early. So register against the proper action hook to do it
-    add_action( 'admin_enqueue_scripts', 'enqueue_admin_js' );
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
 }
 
-add_action( 'admin_menu', 'load_admin_js' );
 
-function enqueue_admin_js(){}
+// Allow shortcodes in widgets
+add_filter('widget_text', 'do_shortcode');
+
+
+/**
+ * Theme Admin Js
+ *
+*/
 
 
 

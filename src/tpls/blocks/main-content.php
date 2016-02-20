@@ -25,7 +25,12 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 		<jdoc:include type="message" />
 	<?php  endif; } ?>
 	<main role="main">
-		<?php
+	
+	
+		<?php if(is_woocommerce()) {
+				woocommerce_content();
+		} else {
+		
 				if ( have_posts() ) :
 		
 					if ( is_home() && ! is_front_page() ) : ?>
@@ -54,7 +59,8 @@ Copyright:	Anthony Olsen - (C) 2014 - All rights reserved
 		
 					get_template_part( 'template-parts/content', 'none' );
 		
-				endif; ?>
+				endif; 
+			} ?>
 	</main>
 		
 	<?php if ($this->countModules('belowcontent')) : ?>

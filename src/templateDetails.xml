@@ -25,18 +25,19 @@
 		<page>search</page>
 	</pages>
 	<positions>
-		<position>banner</position>
 		<position>menu</position>
-		<position>main</position>
 		<position>logo</position>
 		<position>breadcrumbs</position>
 		<position>top1</position>
 		<position>top2</position>
 		<position>top3</position>
 		<position>top4</position>
+		<position>banner</position>
+		<position>above</position>
 		<position>offcanvas</position>
 		<position>sidebar1</position>
 		<position>sidebar2</position>
+		<position>below</position>
 		<position>bottom1</position>
 		<position>bottom2</position>
 		<position>bottom3</position>

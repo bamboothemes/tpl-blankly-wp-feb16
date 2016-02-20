@@ -7,7 +7,7 @@
 			    time() + $offset) . " GMT";
 			    header($ExpStr);?>/** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -17,7 +17,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -27,7 +27,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -37,7 +37,7 @@
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -317,7 +317,7 @@ input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 input:-webkit-autofill:hover {
-  -webkit-box-shadow: 0 0 0px 1000px #fbfbfb inset;
+  -webkit-box-shadow: 0 0 0px 1000px #eaeaea inset;
 }
 .btn-group a {
   margin-right: 8px;
@@ -1174,7 +1174,7 @@ body,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -1272,7 +1272,7 @@ fieldset legend {
   font-size: 1.2em;
   width: 100%;
   padding-bottom: 8px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #dddddd;
 }
 label {
   display: block;
@@ -1288,13 +1288,13 @@ textarea {
   padding: 6px 12px;
   background: #ffffff;
   color: #374140;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   max-width: 100%;
   margin-bottom: 15px;
 }
 input:hover,
 textarea:hover {
-  background: #fbfbfb;
+  background: #eaeaea;
 }
 input[type="checkbox"],
 input[type="radio"],
@@ -1320,7 +1320,7 @@ input.button {
 input,
 select {
   border-radius: 2px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   box-shadow: none;
   margin-bottom: 15px;
   height: 42px;
@@ -1411,7 +1411,7 @@ form {
   transition: all 0.2s ease-in;
   color: #374140;
   background: none;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   padding: 10px;
   margin: 0 10px 10px 0;
   display: inline-block;
@@ -1428,7 +1428,7 @@ form {
 .pagination li span:hover,
 .pagenav li span:hover {
   color: #ffffff;
-  background: #8c4646;
+  background: #d96459;
   border: 1px solid #8c4646;
   text-decoration: none;
 }
@@ -1437,7 +1437,7 @@ form {
 .pagination li span:hover,
 .pagenav li span:hover {
   color: #ffffff;
-  background: #8c4646;
+  background: #d96459;
   border: 1px solid #8c4646;
   text-decoration: none;
 }
@@ -1482,6 +1482,7 @@ form {
 }
 .pagination-wrap .counter {
   font-size: 85%;
+  font-size: 90%;
   color: #cccccc;
 }
 .pagenav li a span {
@@ -1547,7 +1548,7 @@ ul ol {
   padding: 10px 20px !important;
 }
 .striped li:nth-child(2n + 1) {
-  background: #f1f1f1;
+  background: #e0e0e0;
 }
 dl {
   clear: both;
@@ -1555,7 +1556,7 @@ dl {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2064,7 +2065,7 @@ html.sb-static .sb-slidebar,
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2073,7 +2074,7 @@ html.sb-static .sb-slidebar,
  *------------------------------------------------------------------------------
  */
 h2 {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #dddddd;
   padding-top: 10px;
 }
 h1,
@@ -2085,6 +2086,7 @@ h6 {
   font-weight: 300;
   color: #606c76;
   text-rendering: optimizeLegibility;
+  clear: both;
 }
 h1 a,
 h2 a,
@@ -2192,9 +2194,12 @@ pre code {
 var {
   color: rgba(0, 0, 0, 0.5);
 }
+.zen-icon {
+  margin-right: 4px;
+}
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2433,7 +2438,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2660,7 +2665,7 @@ div.purple-bg {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -2671,7 +2676,7 @@ div.purple-bg {
 div.border {
   padding: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   background: none;
 }
 div.border.primary,
@@ -2725,9 +2730,7 @@ div.border.tertiary3 {
 .alert h4 {
   margin-top: 0;
   color: inherit;
-  position: absolute;
   z-index: 2;
-  top: 20px;
 }
 .alert .alert-link {
   font-weight: bold;
@@ -2895,7 +2898,7 @@ table tfoot td {
 }
 table.table-bordered {
   margin-top: -1px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
 }
 table.table-bordered td,
 table.table-bordered th {
@@ -2908,18 +2911,18 @@ table.table-bordered caption {
   padding: 10px 20px !important;
 }
 .table-striped tr:nth-child(2n + 1) {
-  background: #f1f1f1;
+  background: #e0e0e0;
 }
 .table-striped th {
   padding: 10px 20px !important;
-  background: #fdfdfd;
+  background: #ececec;
 }
 .table-striped td {
   padding: 10px 20px !important;
 }
 .table-hover tr:hover,
 .table-hover tr:nth-child(2n + 1):hover {
-  background: #e6e6e6;
+  background: #d5d5d5;
 }
 .table-bordered th,
 .table-bordered .table-bordered td {
@@ -3270,7 +3273,7 @@ label {
 .zen-nav.zen-nav-pills.zen-nav-empty li a,
 .zen-nav.zen-nav-pills.zen-nav-empty li span {
   background: none;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
 }
 .zen-nav.zen-nav-pills.zen-nav-empty li a:hover,
 .zen-nav.zen-nav-pills.zen-nav-empty li span:hover {
@@ -3295,13 +3298,19 @@ label {
 .zen-nav.zen-nav-tabs li.active a,
 .zen-nav.zen-nav-tabs li.active span {
   color: #588c7e;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
+  border-width: 1px 1px 0 1px;
+  background: #f9f9f9;
+}
+.zen-nav.zen-nav-tabs li.active a:focus {
+  color: #588c7e;
+  border: 1px solid #dddddd;
   border-width: 1px 1px 0 1px;
   background: #f9f9f9;
 }
 .zen-nav.zen-nav-tabs:after {
   content: "";
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #dddddd;
   float: left;
   width: 100%;
   margin-top: 9px;
@@ -3326,8 +3335,9 @@ label {
   content: "";
   border-bottom: 0;
 }
-.zen-nav.zen-nav-divider li span {
-  padding: 10px 10px 10px 0;
+.zen-nav.zen-nav-divider li {
+  padding: 10px 0;
+  margin-right: 10px;
 }
 .zen-nav.zen-nav-divider li a,
 .zen-nav.zen-nav-divider li span {
@@ -3340,7 +3350,7 @@ label {
 .zen-nav.zen-nav-divider li:after {
   content: "/";
   color: #cccccc;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .zen-nav.zen-nav-divider li:last-child:after {
   content: "";
@@ -3374,7 +3384,7 @@ label {
   margin-left: 16px;
 }
 .zen-nav.zen-nav-stacked.zen-lines > li {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #dddddd;
 }
 .zen-nav.zen-nav-stacked.zen-lines ul {
   margin-top: 10px;
@@ -4020,6 +4030,9 @@ label {
   overflow: visible;
   height: auto;
 }
+.zen-nav-fixed {
+  z-index: 100;
+}
 .fixed #menu ul ul {
   height: 0;
 }
@@ -4199,7 +4212,7 @@ label {
  *------------------------------------------------------------------------------
  */
 .zen-menu-navbar {
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   border-width: 1px 0;
   width: 100%;
 }
@@ -4208,7 +4221,7 @@ label {
 }
 .zen-menu-navbar li > a,
 .zen-menu-navbar li > .zen-menu-heading {
-  border-right: 1px solid #eeeeee;
+  border-right: 1px solid #dddddd;
   padding: 10px 20px;
 }
 .zen-menu-navbar li:last-child a,
@@ -4422,7 +4435,7 @@ label {
   vertical-align: middle;
   background-color: #ffffff;
   background-image: none;
-  border-color: 1px solid #eeeeee;
+  border-color: 1px solid #dddddd;
 }
 /* hide the link until viewport size is reached */
 a.meanmenu-reveal {
@@ -4852,7 +4865,7 @@ a.meanmenu-reveal {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4862,7 +4875,7 @@ a.meanmenu-reveal {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4969,7 +4982,49 @@ a img.aligncenter {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
+ *------------------------------------------------------------------------------
+ * @copyright   Copyright (C) Joomlabamboo, October 07 2015
+ * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
+ * @Link:       http://www.joomlabamboo.com
+ * @packaged: 	October 07 2015
+ *------------------------------------------------------------------------------
+ */
+.search-form input[type="submit"] {
+  color: #ffffff;
+  background: #8c4646;
+  border: 1px solid #6a3535;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: none;
+  text-shadow: none;
+  margin: 0 10px 10px 0;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.search-form input[type="submit"]:hover {
+  color: #ffffff;
+  background: #d96459;
+  border: 1px solid #8c4646;
+  text-decoration: none;
+}
+.search-form input[type="submit"]:hover {
+  color: #ffffff;
+  background: #d96459;
+  border: 1px solid #8c4646;
+  text-decoration: none;
+}
+.search-form input[type="submit"] span {
+  color: #ffffff;
+}
+.bypostauthor {
+  color: #cccccc;
+}
+/** 
+ *------------------------------------------------------------------------------
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -4994,20 +5049,26 @@ a:hover {
 }
 img.border {
   padding: 4px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
 }
 h2 {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #dddddd;
   padding-top: 10px;
+}
+.small {
+  font-size: 90%;
+}
+.muted {
+  color: #cccccc;
 }
 /* =Quote
  -----------------------------------------------------------------------------*/
 .simple li {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #dddddd;
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5017,7 +5078,7 @@ h2 {
  */
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5046,7 +5107,7 @@ input.btn {
 .btn:hover,
 input.btn:hover {
   color: #ffffff;
-  background: #8c4646;
+  background: #d96459;
   border: 1px solid #8c4646;
   text-decoration: none;
 }
@@ -5056,13 +5117,16 @@ input.btn span {
 }
 .btn-empty {
   background: none;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   padding: 10px;
   margin: 0 10px 10px 0;
 }
 button {
   background: #eeeeee;
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
+}
+.btn.btn-mini {
+  padding: 0 10px;
 }
 .disabled a.btn,
 a.disabled {
@@ -5647,7 +5711,7 @@ fieldset[disabled] .btn-danger.active {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5663,7 +5727,7 @@ fieldset[disabled] .btn-danger.active {
 /* Article Title
 -----------------------------------------------------------------------------*/
 .article-title {
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
   border-width: 0 0  1px 0;
   padding: 0 0 15px 0;
 }
@@ -5675,7 +5739,7 @@ h2.article-title {
 -----------------------------------------------------------------------------*/
 .article-info {
   font-size: 85%;
-  padding-bottom: 15px;
+  font-size: 90%;
 }
 .article-info .article-date {
   color: #cccccc;
@@ -5696,6 +5760,17 @@ h2.article-title {
 .article-info .edit-link :before {
   margin-right: 10px;
 }
+.article-aside {
+  font-size: 85%;
+  font-size: 90%;
+  color: #cccccc;
+}
+.article-aside li a {
+  color: #374140;
+}
+.article-aside li :before {
+  margin-right: 10px;
+}
 /* Read More
  -----------------------------------------------------------------------------*/
 .readon {
@@ -5704,7 +5779,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5745,9 +5820,12 @@ h2.article-title {
     padding-top: 0;
   }
 }
+.breadcrumbs {
+  margin-bottom: 0;
+}
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5755,6 +5833,14 @@ h2.article-title {
  * @packaged: 	October 07 2015
  *------------------------------------------------------------------------------
  */
+.off-canvas-trigger {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  border-radius: 0;
+  margin-right: 0;
+}
 @media screen and (max-width: 787px) {
   .off-canvas-trigger {
     width: 100%;
@@ -5762,7 +5848,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5788,7 +5874,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5803,7 +5889,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5858,7 +5944,7 @@ h2.article-title {
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5867,12 +5953,12 @@ h2.article-title {
  *------------------------------------------------------------------------------
  */
 #sidebar {
-  border-left: 1px solid #eeeeee;
+  border-left: 1px solid #dddddd;
   padding-left: 2%;
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5885,7 +5971,7 @@ h2.article-title {
   float: left;
   width: 100%;
   border-style: solid;
-  border-color: #eeeeee;
+  border-color: #dddddd;
   border-width: 1px 0;
   padding: 15px 0;
   background: transparent;
@@ -5894,16 +5980,21 @@ h2.article-title {
   margin-left: 0;
 }
 #menu ul ul {
-  border: 1px solid #eeeeee;
+  border: 1px solid #dddddd;
+}
+.zen-nav-fixed {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.06);
 }
 .zen-nav-fixed #menu {
+  transition: 0.6s all;
   margin-top: 0;
   border-top: 0;
   border-bottom: 0;
+  padding: 0;
 }
 /** 
  *------------------------------------------------------------------------------
- * @package       Blankly v1.0 - ZGFv4 Universal
+ * @package       Zen Grid Framework Xero - 1.3.2 | ZGF v4 1.3.3
  *------------------------------------------------------------------------------
  * @copyright   Copyright (C) Joomlabamboo, October 07 2015
  * @license     http://www.gnu.org/licenses/gpl.html GNU General Public License version 2 or later; 
@@ -5913,10 +6004,11 @@ h2.article-title {
  */
 #footerwrap {
   font-size: 85%;
+  font-size: 90%;
   margin-bottom: 30px;
 }
 #footerwrap .zen-container {
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #dddddd;
   padding-top: 15px;
 }
 #footerwrap p {
@@ -5924,6 +6016,16 @@ h2.article-title {
 }
 #footerwrap .zen-copyright {
   text-align: right;
+}
+#footerwrap ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+#toTop {
+  display: none;
+}
+#toTop .zen-icon {
+  margin-right: 0;
 }
 /** 
  *------------------------------------------------------------------------------
